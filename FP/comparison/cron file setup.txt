@@ -1,0 +1,1 @@
+schtasks /create /tn "XamppCron1" /tr "c:\xampp\php\php.exe c:\xampp\htdocs\FP\cron.php" /sc minute /mo 15

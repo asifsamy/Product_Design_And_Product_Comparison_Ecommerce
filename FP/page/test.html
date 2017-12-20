@@ -1,0 +1,29 @@
+<html>
+
+<body>
+<form>
+<p>13-7: <input id="in1" type="text"" />
+
+    <input type="button" onclick="check(6, 'in1', 'out1')" value="Tjek!"/>
+
+</p>
+<p id="out1"></p>
+
+
+
+
+<script type="text/javascript">
+
+function check(facit, input, output) {
+    var answer, evaluation;
+    answer = document.getElementById(input).value;
+    evaluation = (answer == facit) ? "Correct" : "Wrong";
+    document.getElementById(output).innerHTML = evaluation;
+    return false;
+}
+
+</script>
+</form>
+</body>
+
+</html>

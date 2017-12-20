@@ -1,0 +1,33 @@
+1. Customer.php
+2. block.php
+
+3. verify.php
+4. fpass.php
+5. resetpass.php
+6. paymentoffline.php
+7. contact.php
+8. Category.php
+9. header.php(3)
+10. mailbox.php
+11. mailSingle.php
+12.all admin
+13. Contact.php 
+
+admin-> 1. previous.php
+        2. Adminlogin.php
+
+
+paypal
+https://developer.paypal.com/developer/accounts?event=createSuccess
+
+sandbox brainstree
+https://www.youtube.com/watch?v=GL5pG1Sx-oc&index=1&list=PLfdtiltiRHWH9JN1NBpJRFUhN96KBfPmd
+
+Stripe Payment
+https://www.youtube.com/watch?v=9X45izdiEnA&list=PLfdtiltiRHWHn4uErhCQEk1EIUjSGkuDk&index=1
+https://www.youtube.com/watch?v=Z-tGVDfzL9g
+
+Stripe Account
+https://dashboard.stripe.com/test/dashboard
+https://stripe.com/docs/testing
+https://stripe.com/docs/checkout

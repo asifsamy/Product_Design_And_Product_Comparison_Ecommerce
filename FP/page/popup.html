@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+
+  <body>
+      <div style = "min-width: 300px;">
+          <center><p style = "font-size: 20px;"><b>Our Current Service Site List</b></p></center>
+          <table style="width:100%">
+            <tr>
+              <th><img src="daraz.png" alt="Daraz" height="60" width="60"></th>
+              <th><img src="clickbd.png" alt="clickbd" height="150" width="150"></th> 
+            </tr>
+          </table>
+          <br>
+          <center><button type="button" id="do-count">Fine Similar Product</button></center>
+          <center><p style = "font-size: 15px;color:red;"><b>Just Knock us if you need more..</b></p></center>
+          <br>
+          <center>
+            <form id='myForm' action='http://localhost/page/number.php' method="post">
+                  *Your Name:
+                  <br>
+                  <input class= 'vals' type="text" name="name" id="name" required>
+                  <br>
+                  *Your Email: 
+                  <br>
+                  <input class= 'vals' type="text" name="email" id="email" required>
+                  <br>
+                  *Site Link that you want: 
+                  <br>
+                  <input class= 'vals' type="text" name="url" id="url" required>
+                  <br><br>
+                  <button type="button" id='sbmt'>Submit</button>
+                  </center>
+            </form>
+
+            <p id="demo"></p>
+            <p id="demo1"></p>
+
+
+            <script type="text/javascript" src="popup.js"></script>
+
+      </div>
+  </body>
+
+</html>
